@@ -4,7 +4,7 @@ A filetype definition to use with [Geany](https://www.geany.org/) for editing [F
 
 ## Installation
 
-Copy the file [filetypes.FreeFEM.conf](filetypes.FreeFEM.conf) in the folder `~/.config/geany/filedefs/`.
+Copy the file [filetypes.freeFEM.conf](filetypes.FreeFEM.conf) in the folder `~/.config/geany/filedefs/`.
 
 To automatically select this filetype when edit a FreeFEM script add the following line:
 
