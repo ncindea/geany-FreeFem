@@ -1,12 +1,12 @@
 # geany-FreeFEM
 
-A filetype definition to use with [Geany](https://www.geany.org/) for editing [FreeFem++](http://www.freefem.org/) scripts.
+A filetype definition to use with [Geany](https://www.geany.org/) for editing [FreeFEM](http://www.freefem.org/) scripts.
 
 ## Installation
 
-Copy the file [filetypes.FreeFem++.conf](filetypes.FreeFem++.conf) in the folder `~/.config/geany/filedefs/`.
+Copy the file [filetypes.FreeFEM.conf](filetypes.FreeFEM.conf) in the folder `~/.config/geany/filedefs/`.
 
-To automatically select this filetype when edit a FreeFem++ script add the following line:
+To automatically select this filetype when edit a FreeFEM script add the following line:
 
 `FreeFem++=*.edp;*.idp;`
 
