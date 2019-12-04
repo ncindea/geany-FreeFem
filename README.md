@@ -1,4 +1,4 @@
-# geany-FreeFem
+# geany-FreeFEM
 
 A filetype definition to use with [Geany](https://www.geany.org/) for editing [FreeFem++](http://www.freefem.org/) scripts.
 
