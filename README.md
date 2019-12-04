@@ -10,5 +10,5 @@ To automatically select this filetype when edit a FreeFem++ script add the follo
 
 `FreeFem++=*.edp;*.idp;`
 
-to the file `~/.config/geany/filetype_extensions.conf`.
+to the file `~/.config/geany/filetype_extensions.conf`. If there is no such a file, create one by using the _Tools->Configuration Files->filetype_extensions.conf_ menu item. For more informations, see the [Geany's documentation](https://www.geany.org/manual/current/index.html).
 
