@@ -6,9 +6,13 @@ A filetype definition to use with [Geany](https://www.geany.org/) for editing [F
 
 Copy the file [filetypes.freeFEM.conf](filetypes.FreeFEM.conf) in the folder `~/.config/geany/filedefs/`.
 
-To automatically select this filetype when edit a FreeFEM script add the following line:
+To automatically select this filetype when edit a FreeFEM script add the following lines:
 
-`FreeFem++=*.edp;*.idp;`
+`[Extensions]
+FreeFEM+=*.edp;*.idp;
+
+[Groups]
+Script=FreeFEM;`
 
 to the file `~/.config/geany/filetype_extensions.conf`. If there is no such a file, create one by using the _Tools->Configuration Files->filetype_extensions.conf_ menu item. For more informations, see the [Geany's documentation](https://www.geany.org/manual/current/index.html).
 
